@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.paginationItem:not(:last-child) {
+    margin-right: 10px;
+}
+
+.paginationLink {
+    display: flex;
+    align-items: center;
+}
+
+.paginationPrevIcon {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+
+.paginationNextIcon {
+    margin-left: 10px;
+}
+

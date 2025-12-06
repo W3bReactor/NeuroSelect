@@ -1,0 +1,6 @@
+.page {
+    overflow: hidden;
+}
+.app {
+    min-height: 100vh;
+}

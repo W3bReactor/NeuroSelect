@@ -1,0 +1,32 @@
+.btn {
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s;
+    background-color: #fff;
+    width: max-content;
+    text-decoration: none;
+    border: 1px solid #dfdfdf;
+    padding: 19px 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #1b1b1b;
+
+}
+
+
+.btn:hover {
+    background-color: #eee;
+
+}
+
+.btnActive {
+    background-color: #011120;
+    color: #fff;
+}
+
+.btnActive:hover {
+    background-color: #011120;
+}

@@ -1,0 +1,9 @@
+.productsGroups {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.productsGroupsItem:not(:last-child) {
+    margin-bottom: 35px;
+}

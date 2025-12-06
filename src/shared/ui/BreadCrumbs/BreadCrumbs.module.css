@@ -1,0 +1,50 @@
+.breadCrumbs {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.breadCrumb {
+    display: flex;
+    align-items: center;
+    color: #2c333d;
+}
+
+.breadCrumb:not(:last-child) {
+    margin-right: 15px;
+}
+
+.breadCrumbsSeparator {
+    margin-right: 15px;
+}
+
+.breadCrumbsItem {
+    color: #2c333d;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.breadCrumbsItem:hover {
+    color: #5c646e;
+}
+
+.breadCrumbsSeparatorLast {
+    color: #91969d;
+}
+
+.breadCrumbsSeparatorLast:hover {
+    color: #91969d;
+}
+
+.breadCrumbsItemLast {
+    color: #91969d;
+}
+
+.breadCrumbsItemLast:hover {
+    color: #91969d;
+}
+

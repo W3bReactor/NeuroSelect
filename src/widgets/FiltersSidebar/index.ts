@@ -1,0 +1,1 @@
+export {FiltersSidebar} from "./ui/FiltersSidebar";

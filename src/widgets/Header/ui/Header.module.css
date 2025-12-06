@@ -1,0 +1,89 @@
+.header {
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1620px;
+    margin: 0 auto;
+    border-bottom: 1px solid #edf0f2;
+}
+
+.headerCatalogLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerCatalogIcon {
+    margin-right: 17px;
+}
+
+.headerCatalog {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.headerSearchForm {
+    border: 3px solid #DB2B21;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    outline: none;
+    max-width: 660px;
+    width: 100%;
+}
+
+.headerSearchBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headerSearchItem {
+    border: none;
+    padding: 17px 21px;
+    background-color: #DB2B21;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.headerSearch {
+    border: none;
+    outline: none;
+    max-width: 660px;
+    width: 100%;
+    padding: 15px;
+}
+
+.headerAccountLink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerAccountIcon {
+    margin-bottom: 12px;
+}
+
+.headerAccountLink {
+    text-decoration: none;
+}
+
+.headerAccount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 57%;
+    text-align: center;
+    color: #6b7076;
+    text-decoration: none;
+}

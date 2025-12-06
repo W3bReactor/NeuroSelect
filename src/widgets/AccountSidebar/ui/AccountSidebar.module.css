@@ -1,0 +1,31 @@
+.accountSidebarList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.accountSidebarList {
+    border: 1px solid #edf0f2;
+}
+
+.accountSidebarLink {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #2c333d;
+    padding: 24px 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.accountSidebarLinkActive {
+    background-color: #011120;
+    color: #fff;
+}
+
+
+.accountSidebarLink:not(:last-child) {
+    border-bottom: 1px solid #edf0f2;
+}
+

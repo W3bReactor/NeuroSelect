@@ -1,0 +1,1 @@
+export {AccountMainPage} from './ui/AccountMainPage'

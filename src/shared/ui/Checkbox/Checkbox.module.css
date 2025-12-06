@@ -1,0 +1,43 @@
+.labelCheckbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkboxText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    color: #363839;
+    margin-left: 15px;
+}
+
+.checkboxTextBefore {
+    margin: 0 15px 0 0;
+}
+
+
+.checkbox {
+    display: none;
+}
+
+.labelCheckbox span {
+    border: 1px solid #dfe0e2;
+    float: right;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.checkboxIcon {
+    object-fit: cover;
+}
+
+
+.labelCheckbox input:checked + span {
+    background-color: #DB2B21;
+}

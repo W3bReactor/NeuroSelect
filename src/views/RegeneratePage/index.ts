@@ -1,0 +1,1 @@
+export {RegeneratePage} from './ui/RegeneratePage'

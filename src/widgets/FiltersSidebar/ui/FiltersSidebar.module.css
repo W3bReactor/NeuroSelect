@@ -1,0 +1,10 @@
+.filtersSidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtersSidebarList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}

@@ -1,0 +1,17 @@
+.page {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.app {
+    min-height: 100vh;
+    max-width: 1620px;
+    margin: 50px auto 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.appTitle {
+    margin-bottom: 100px;
+}

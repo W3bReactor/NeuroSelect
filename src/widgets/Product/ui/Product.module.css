@@ -1,0 +1,79 @@
+.product {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 20px;
+}
+
+.productImage {
+    grid-column: 6 span;
+}
+
+.productInfo {
+    grid-column: 4 span;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfoOpenAll {
+    margin-bottom: 42px;
+}
+
+.productInfoList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.productInfoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productInfoTitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 187%;
+    color: #2c333d;
+}
+
+.productInfoValue {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 187%;
+    color: #7d7f83;
+}
+
+.productInfoItem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.productControls {
+    grid-column: 4 span;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    box-shadow: 0 4px 19px 0 rgba(23, 27, 32, 0.07);
+    padding: 25px;
+
+}
+
+.productControlsBtn {
+    width: 100%;
+}
+
+
+.productControlsEdit {
+    background-color: #264B82;
+    margin-bottom: 15px;
+}
+
+
+.productControlsDelete {
+    background-color: #DB2B21;
+}
+
+.productImage {
+    object-fit: cover;
+}

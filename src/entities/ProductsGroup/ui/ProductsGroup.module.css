@@ -1,0 +1,9 @@
+.productsGroup {
+    border: 1px solid #d4dbe6;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+}
+
+.productsGroupCheckbox {
+    margin-bottom: 25px;
+}

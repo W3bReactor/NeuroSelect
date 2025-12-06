@@ -1,0 +1,21 @@
+.btn {
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #264B82;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s;
+    background-color: #fff;
+    width: max-content;
+    text-decoration: none;
+    border: 1px solid #264b82;
+}
+
+.btn:hover {
+    background-color: #eee;
+
+}

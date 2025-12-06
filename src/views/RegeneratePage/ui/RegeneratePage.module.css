@@ -1,0 +1,29 @@
+.page {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.app {
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1620px;
+}
+
+.pageTitle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.regenerateContent {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 50px;
+}
+
+.regenerateSidebar {
+    grid-column: 3 span;
+}
+
+.regenerateItem {
+    grid-column: 11 span;
+}

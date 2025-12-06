@@ -1,0 +1,36 @@
+.page {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.app {
+    min-height: 100vh;
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageTitle {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.notFoundImage {
+    margin-bottom: 55px;
+}
+
+.notFoundDesc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 161%;
+    text-align: center;
+    color: #535557;
+    margin-bottom: 55px;
+    max-width: 727px;
+}
+
+.notFoundContent {
+    margin: 0 auto;
+    text-align: center;
+}

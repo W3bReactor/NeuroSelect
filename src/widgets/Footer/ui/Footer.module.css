@@ -1,0 +1,49 @@
+.footer {
+    background: #f3f4f5;
+    padding-bottom: 30px;
+}
+
+.footerInner {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.footerTop {
+    padding: 40px 0;
+}
+
+.footerColumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerColumnTitle {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #333436;
+}
+
+.footerList {
+    list-style: none;
+}
+
+.footerItem:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.footerItemLink {
+    text-decoration: none;
+}
+
+.footerColumnText {
+    font-weight: 400;
+    font-size: 16px;
+    color: #404244;
+}

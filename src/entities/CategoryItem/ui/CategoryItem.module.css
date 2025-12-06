@@ -1,0 +1,18 @@
+.categoryItemLink {
+    display: block;
+    padding: 15px 25px;
+    width: 100%;
+    transition: all 0.2s linear;
+}
+
+
+
+.categoryItemText {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 154%;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
